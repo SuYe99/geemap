@@ -653,15 +653,15 @@ class Map(ipyleaflet.Map):
 
         tools = {
             "info": {"name": "inspector", "tooltip": "Inspector"},
-            "bar-chart": {"name": "plotting", "tooltip": "Plotting"},
+            # "bar-chart": {"name": "plotting", "tooltip": "Plotting"},
             "camera": {
                 "name": "to_image",
                 "tooltip": "Save map as HTML or image",
             },
-            "eraser": {
-                "name": "eraser",
-                "tooltip": "Remove all drawn features",
-            },
+            # "eraser": {
+            #     "name": "eraser",
+            #     "tooltip": "Remove all drawn features",
+            # },
             "folder-open": {
                 "name": "open_data",
                 "tooltip": "Open local vector/raster data",
@@ -670,54 +670,54 @@ class Map(ipyleaflet.Map):
             #     "name": "export_data",
             #     "tooltip": "Export Earth Engine data",
             # },
-            "retweet": {
-                "name": "convert_js",
-                "tooltip": "Convert Earth Engine JavaScript to Python",
-            },
-            "gears": {
-                "name": "whitebox",
-                "tooltip": "WhiteboxTools for local geoprocessing",
-            },
-            "google": {
-                "name": "geetoolbox",
-                "tooltip": "GEE Toolbox for cloud computing",
-            },
-            "map": {
-                "name": "basemap",
-                "tooltip": "Change basemap",
-            },
-            "globe": {
-                "name": "timelapse",
-                "tooltip": "Create timelapse",
-            },
-            "fast-forward": {
-                "name": "timeslider",
-                "tooltip": "Activate timeslider",
-            },
-            "hand-o-up": {
-                "name": "draw",
-                "tooltip": "Collect training samples",
-            },
-            "line-chart": {
-                "name": "transect",
-                "tooltip": "Creating and plotting transects",
-            },
-            "random": {
-                "name": "sankee",
-                "tooltip": "Sankey plots",
-            },
-            "adjust": {
-                "name": "planet",
-                "tooltip": "Planet imagery",
-            },
-            "info-circle": {
-                "name": "cog-inspector",
-                "tooltip": "Get COG/STAC pixel value",
-            },
-            "spinner": {
-                "name": "placehold2",
-                "tooltip": "This is a placehold",
-            },
+            # "retweet": {
+            #     "name": "convert_js",
+            #     "tooltip": "Convert Earth Engine JavaScript to Python",
+            # },
+            # "gears": {
+            #     "name": "whitebox",
+            #     "tooltip": "WhiteboxTools for local geoprocessing",
+            # },
+            # "google": {
+            #     "name": "geetoolbox",
+            #     "tooltip": "GEE Toolbox for cloud computing",
+            # },
+            # "map": {
+            #     "name": "basemap",
+            #     "tooltip": "Change basemap",
+            # },
+            # "globe": {
+            #     "name": "timelapse",
+            #     "tooltip": "Create timelapse",
+            # },
+            # "fast-forward": {
+            #     "name": "timeslider",
+            #     "tooltip": "Activate timeslider",
+            # },
+            # "hand-o-up": {
+            #     "name": "draw",
+            #     "tooltip": "Collect training samples",
+            # },
+            # "line-chart": {
+            #     "name": "transect",
+            #     "tooltip": "Creating and plotting transects",
+            # },
+            # "random": {
+            #     "name": "sankee",
+            #     "tooltip": "Sankey plots",
+            # },
+            # "adjust": {
+            #     "name": "planet",
+            #     "tooltip": "Planet imagery",
+            # },
+            # "info-circle": {
+            #     "name": "cog-inspector",
+            #     "tooltip": "Get COG/STAC pixel value",
+            # },
+            # "spinner": {
+            #     "name": "placehold2",
+            #     "tooltip": "This is a placehold",
+            # },
             "question": {
                 "name": "help",
                 "tooltip": "Get help",
